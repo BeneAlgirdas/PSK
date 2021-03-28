@@ -13,8 +13,12 @@ public class CustomersDAO {
     private EntityManager em;
 
     public List<Customer> loadAll() {
-        return em.createNamedQuery("Player.findAll", Customer.class).getResultList();
+        return em.createNamedQuery("Customer.findAll", Customer.class).getResultList();
     }
+
+    /*public List<Customer> loadCustomersOfRestaurant(Integer restaurantId) {
+        return em.createNamedQuery("Customer.findAll", Customer.class).getResultList();
+    }*/
 
     public void setEm(EntityManager em) {
         this.em = em;

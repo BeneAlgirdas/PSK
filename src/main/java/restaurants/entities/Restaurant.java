@@ -7,6 +7,9 @@ import javax.persistence.*;
 import java.util.*;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name = "Restaurant.findAll", query = "select a from Restaurant as a")
+})
 @Table(name = "RESTAURANT")
 @Getter @Setter
 public class Restaurant {

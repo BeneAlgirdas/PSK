@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+>
+<h:head/>
+<h:body>
+    <h2>Employees:</h2>
+    <ol>
+        <ui:repeat value="#{employees.restaurantEmployees}" var="employee">
+            <li>#{employee.name}</li>
+        </ui:repeat>
+    </ol>
+    <h:form>
+        <h:inputText value="#{employees.employeeToCreate.name}" required="true" />
+        <h:commandButton value="Add new employee" action="#{employees.createEmployee}">
+            <f:param name="restaurantId" value="#{employees.restaurantId}"/>
+        </h:commandButton>
+    </h:form>
+</h:body>
+</html>

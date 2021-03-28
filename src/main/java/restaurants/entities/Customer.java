@@ -9,7 +9,7 @@ import java.util.Set;
 
 @Entity
 @NamedQueries({
-        @NamedQuery(name = "Player.findAll", query = "select a from Customer as a")
+        @NamedQuery(name = "Customer.findAll", query = "select a from Customer as a")
 })
 @Table(name = "CUSTOMER")
 public class Customer implements Serializable {

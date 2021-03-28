@@ -6,15 +6,14 @@
 >
 <h:head/>
 <h:body>
-    <h2>Customers:</h2>
+    <h2>Restaurants:</h2>
     <ol>
-        <ui:repeat value="#{customers.allCustomers}" var="customer">
-            <li>#{customer.name}</li>
+        <ui:repeat value="#{restaurants.allRestaurants}" var="restaurant">
+            <li>
+                <h:link value = "#{restaurant.name}" outcome = "page1?faces-redirect=true&amp;restaurantId=#{restaurant.id}">
+                </h:link>
+            </li>
         </ui:repeat>
     </ol>
-    <h:form>
-        <h:inputText value="#{customers.customerToCreate.name}" required="true" />
-        <h:commandButton value="Add new customer" action="#{customers.createCustomer}" />
-    </h:form>
 </h:body>
 </html>

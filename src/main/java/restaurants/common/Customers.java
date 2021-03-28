@@ -1,16 +1,18 @@
 package restaurants.common;
 
+import lombok.Getter;
+import lombok.Setter;
 import restaurants.entities.Customer;
 import restaurants.persistence.CustomersDAO;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.inject.Model;
 import javax.inject.Inject;
-import javax.transaction.Transactional;
 import java.io.Serializable;
 import java.util.List;
 
 @Model
+@Getter @Setter
 public class Customers implements Serializable {
 
     @Inject
@@ -32,17 +34,11 @@ public class Customers implements Serializable {
         return allCustomers;
     }
 
-    @Transactional
-    public String createCustomer(){
-        this.customersDAO.persist(customerToCreate);
-        return "success";
-    }
-
     public Customer getCustomerToCreate() {
         return customerToCreate;
     }
 
-    public void setPlayerToCreate(Customer customerToCreate) {
+    public void setCustomerToCreate(Customer customerToCreate) {
         this.customerToCreate = customerToCreate;
     }
 }

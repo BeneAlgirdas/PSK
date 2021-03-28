@@ -9,6 +9,11 @@ import java.io.Serializable;
 import java.util.Objects;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name = "Employee.findAll", query = "select a from Employee as a"),
+        @NamedQuery(name = "Employee.getRestaurantEmployees",
+                query = "SELECT e FROM Employee AS e WHERE e.restaurant.id = :restaurantId")
+})
 @Table(name = "EMPLOYEE")
 @Getter @Setter
 public class Employee implements Serializable {
@@ -32,9 +37,9 @@ public class Employee implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Employee player = (Employee) o;
-        return Objects.equals(id, player.id) &&
-                Objects.equals(name, player.name);
+        Employee employee = (Employee) o;
+        return Objects.equals(id, employee.id) &&
+                Objects.equals(name, employee.name);
     }
 
     @Override
