@@ -12,5 +12,9 @@
             <li>#{customer.name}</li>
         </ui:repeat>
     </ol>
+    <h:form>
+        <h:inputText value="#{customers.customerToCreate.name}" required="true" />
+        <h:commandButton value="Add new customer" action="#{customers.createCustomer}" />
+    </h:form>
 </h:body>
 </html>
