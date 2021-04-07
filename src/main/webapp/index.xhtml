@@ -15,5 +15,9 @@
             </li>
         </ui:repeat>
     </ol>
+    <h:form>
+        <h:inputText value="#{restaurantsMyBatis.restaurantToCreate.name}" required="true" />
+        <h:commandButton value="Add new restaurant" action="#{restaurantsMyBatis.createRestaurant}" />
+    </h:form>
 </h:body>
 </html>

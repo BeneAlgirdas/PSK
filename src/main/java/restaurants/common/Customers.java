@@ -1,7 +1,5 @@
 package restaurants.common;
 
-import lombok.Getter;
-import lombok.Setter;
 import restaurants.entities.Customer;
 import restaurants.persistence.CustomersDAO;
 
@@ -12,7 +10,6 @@ import java.io.Serializable;
 import java.util.List;
 
 @Model
-@Getter @Setter
 public class Customers implements Serializable {
 
     @Inject
@@ -40,5 +37,17 @@ public class Customers implements Serializable {
 
     public void setCustomerToCreate(Customer customerToCreate) {
         this.customerToCreate = customerToCreate;
+    }
+
+    public CustomersDAO getCustomersDAO() {
+        return customersDAO;
+    }
+
+    public void setCustomersDAO(CustomersDAO customersDAO) {
+        this.customersDAO = customersDAO;
+    }
+
+    public void setAllCustomers(List<Customer> allCustomers) {
+        this.allCustomers = allCustomers;
     }
 }

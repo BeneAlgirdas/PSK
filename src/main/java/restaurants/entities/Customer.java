@@ -65,4 +65,12 @@ public class Customer implements Serializable {
     public int hashCode() {
         return Objects.hash(id, name);
     }
+
+    public Set<Restaurant> getRestaurants() {
+        return restaurants;
+    }
+
+    public void setRestaurants(Set<Restaurant> restaurants) {
+        this.restaurants = restaurants;
+    }
 }

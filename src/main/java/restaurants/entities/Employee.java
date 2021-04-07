@@ -1,8 +1,5 @@
 package restaurants.entities;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
@@ -15,7 +12,6 @@ import java.util.Objects;
                 query = "SELECT e FROM Employee AS e WHERE e.restaurant.id = :restaurantId")
 })
 @Table(name = "EMPLOYEE")
-@Getter @Setter
 public class Employee implements Serializable {
 
     @Id
@@ -45,5 +41,29 @@ public class Employee implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hash(id, name);
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Restaurant getRestaurant() {
+        return restaurant;
+    }
+
+    public void setRestaurant(Restaurant restaurant) {
+        this.restaurant = restaurant;
     }
 }

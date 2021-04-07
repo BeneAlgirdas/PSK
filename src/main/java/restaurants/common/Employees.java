@@ -1,7 +1,5 @@
 package restaurants.common;
 
-import lombok.Getter;
-import lombok.Setter;
 import restaurants.entities.Employee;
 import restaurants.entities.Restaurant;
 import restaurants.persistence.EmployeesDAO;
@@ -18,7 +16,6 @@ import java.util.List;
 import java.util.Map;
 
 @Model
-@Getter @Setter
 public class Employees implements Serializable {
 
     @Inject
@@ -52,5 +49,45 @@ public class Employees implements Serializable {
     private void loadEmployees(Integer restaurantId) {
 
         this.restaurantEmployees = employeesDAO.loadRestaurantEmployees(restaurantId);
+    }
+
+    public EmployeesDAO getEmployeesDAO() {
+        return employeesDAO;
+    }
+
+    public void setEmployeesDAO(EmployeesDAO employeesDAO) {
+        this.employeesDAO = employeesDAO;
+    }
+
+    public RestaurantsDAO getRestaurantsDAO() {
+        return restaurantsDAO;
+    }
+
+    public void setRestaurantsDAO(RestaurantsDAO restaurantsDAO) {
+        this.restaurantsDAO = restaurantsDAO;
+    }
+
+    public Integer getRestaurantId() {
+        return restaurantId;
+    }
+
+    public void setRestaurantId(Integer restaurantId) {
+        this.restaurantId = restaurantId;
+    }
+
+    public Employee getEmployeeToCreate() {
+        return employeeToCreate;
+    }
+
+    public void setEmployeeToCreate(Employee employeeToCreate) {
+        this.employeeToCreate = employeeToCreate;
+    }
+
+    public List<Employee> getRestaurantEmployees() {
+        return restaurantEmployees;
+    }
+
+    public void setRestaurantEmployees(List<Employee> restaurantEmployees) {
+        this.restaurantEmployees = restaurantEmployees;
     }
 }

@@ -1,8 +1,5 @@
 package restaurants.entities;
 
-import lombok.Getter;
-import lombok.Setter;
-
 import javax.persistence.*;
 import java.util.*;
 
@@ -11,7 +8,6 @@ import java.util.*;
         @NamedQuery(name = "Restaurant.findAll", query = "select a from Restaurant as a")
 })
 @Table(name = "RESTAURANT")
-@Getter @Setter
 public class Restaurant {
 
     public Restaurant(){
@@ -25,7 +21,7 @@ public class Restaurant {
     private String name;
 
     @OneToMany(mappedBy = "restaurant")
-    private List<Employee> emplyees = new ArrayList<>();
+    private List<Employee> employees = new ArrayList<>();
 
     @Override
     public boolean equals(Object o) {
@@ -43,4 +39,36 @@ public class Restaurant {
 
     @ManyToMany(mappedBy = "restaurants")
     private Set<Customer> customers = new HashSet<>();
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<Employee> getEmployees() {
+        return employees;
+    }
+
+    public void setEmployees(List<Employee> emplyees) {
+        this.employees = emplyees;
+    }
+
+    public Set<Customer> getCustomers() {
+        return customers;
+    }
+
+    public void setCustomers(Set<Customer> customers) {
+        this.customers = customers;
+    }
 }
