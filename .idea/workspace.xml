@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PSK:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="Employee name update">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PSK_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PSK_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_platform_jakarta_jakartaee_api_8_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_cdi_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/UpdateEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/employeeEdit.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PSK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PSK.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/RestaurantsMyBatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/RestaurantsMyBatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page1.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page1.xhtml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="XHTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1pOHqGZKF80JfHR8MaRq607YczG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="h2" />
+    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.1875" />
+    <property name="project.structure.side.proportion" value="0.34064886" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="restaurants.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\webapp" />
+      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\resources\mybatis" />
+      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\resources\TEST" />
+      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\resources" />
+      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\java\restaurants\common" />
+      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\java\restaurants" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="JBoss 23.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 23.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="adopt-openjdk-14" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="PSK:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="sa" />
+        <option name="CREDENTIAL_ALIAS" value="4875bfd3-a78d-4017-9404-03dde727e8bf" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5876" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="PSK:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="" />
+      <created>1615047408153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615047408153</updated>
+      <workItem from="1615047410364" duration="1539000" />
+      <workItem from="1615049249748" duration="1140000" />
+      <workItem from="1615050428469" duration="340000" />
+      <workItem from="1615050887267" duration="200000" />
+      <workItem from="1615051102697" duration="716000" />
+      <workItem from="1615053013551" duration="102000" />
+      <workItem from="1615053130389" duration="692000" />
+      <workItem from="1615200739424" duration="101000" />
+      <workItem from="1615747066267" duration="618000" />
+      <workItem from="1615770186736" duration="4000" />
+      <workItem from="1615918988376" duration="655000" />
+      <workItem from="1615919766776" duration="2689000" />
+      <workItem from="1615951214931" duration="606000" />
+      <workItem from="1616625116651" duration="476000" />
+      <workItem from="1616696949356" duration="1329000" />
+      <workItem from="1616698415257" duration="4954000" />
+      <workItem from="1616805476681" duration="798000" />
+      <workItem from="1616864550774" duration="9742000" />
+      <workItem from="1616921957158" duration="22748000" />
+      <workItem from="1616951362427" duration="5833000" />
+      <workItem from="1617002347250" duration="1961000" />
+      <workItem from="1617006733745" duration="582000" />
+      <workItem from="1617007365097" duration="782000" />
+      <workItem from="1617008173556" duration="3473000" />
+      <workItem from="1617011917940" duration="1976000" />
+      <workItem from="1617013974903" duration="398000" />
+      <workItem from="1617014394625" duration="1607000" />
+      <workItem from="1617016031886" duration="1766000" />
+      <workItem from="1617022611710" duration="52000" />
+      <workItem from="1617131236813" duration="58000" />
+      <workItem from="1617649679260" duration="10798000" />
+      <workItem from="1617707478151" duration="83000" />
+      <workItem from="1617724487690" duration="1157000" />
+      <workItem from="1617742281338" duration="862000" />
+      <workItem from="1617776924243" duration="7605000" />
+      <workItem from="1617801076924" duration="262000" />
+      <workItem from="1617801359917" duration="4888000" />
+      <workItem from="1617832777199" duration="174000" />
+      <workItem from="1618063575476" duration="18000" />
+      <workItem from="1618077130609" duration="11404000" />
+      <workItem from="1618515254623" duration="647000" />
+      <workItem from="1618673602807" duration="9231000" />
+      <workItem from="1618691373192" duration="2713000" />
+      <workItem from="1618729069662" duration="9646000" />
+      <workItem from="1618742414981" duration="5895000" />
+      <workItem from="1618839168728" duration="3942000" />
+      <workItem from="1618853181623" duration="289000" />
+    </task>
+    <task id="LOCAL−00001" summary="implementing listing items from backend to UI">
+      <created>1616701230742</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1616701230742</updated>
+    </task>
+    <task id="LOCAL−00002" summary="create customer functionality is added">
+      <created>1616926810266</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1616926810266</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Implemented adding employees to selected restaurant functionality">
+      <created>1616957127549</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1616957127550</updated>
+    </task>
+    <task id="LOCAL−00004" summary="MyBatis implementation">
+      <created>1617804315468</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1617804315468</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="implementing listing items from backend to UI" />
+    <MESSAGE value="create customer functionality is added" />
+    <MESSAGE value="Implemented adding employees to selected restaurant functionality" />
+    <MESSAGE value="MyBatis implementation" />
+    <MESSAGE value="Employee name update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Employee name update" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -10,7 +10,10 @@
     <h2>Employees:</h2>
     <ol>
         <ui:repeat value="#{employees.restaurantEmployees}" var="employee">
-            <li>#{employee.name}</li>
+            <li>
+                <h:link value = "#{employee.name}" outcome = "employeeEdit?faces-redirect=true&amp;employeeId=#{employee.id}">
+                </h:link>
+            </li>
         </ui:repeat>
     </ol>
     <h:form>
