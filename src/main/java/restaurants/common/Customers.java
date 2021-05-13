@@ -1,12 +1,14 @@
 package restaurants.common;
 
 import restaurants.entities.Customer;
+import restaurants.entities.Restaurant;
 import restaurants.persistence.CustomersDAO;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.inject.Model;
 import javax.inject.Inject;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 @Model

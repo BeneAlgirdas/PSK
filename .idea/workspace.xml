@@ -9,29 +9,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="Employee name update">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PSK_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/PSK_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_platform_jakarta_jakartaee_api_8_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_cdi_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/UpdateEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/employeeEdit.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="Update employee name">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PSK.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/RestaurantCustomers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/UpdateEmployeeEM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/rest/EmployeesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/rest/contracts/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/.idea/webapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PSK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PSK.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/RestaurantsMyBatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/RestaurantsMyBatis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/Restaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/Restaurants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/entities/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/mybatis/dao/RestaurantMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/mybatis/dao/RestaurantMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/mybatis/model/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/mybatis/model/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/persistence/EmployeesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/persistence/EmployeesDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/MyBatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MyBatisConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/RestaurantMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/employeeEdit.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/employeeEdit.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/page1.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page1.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +85,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
@@ -98,7 +100,7 @@
     <property name="project.structure.proportion" value="0.1875" />
     <property name="project.structure.side.proportion" value="0.34064886" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -109,14 +111,25 @@
       <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\webapp" />
       <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\resources\mybatis" />
+      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\java\restaurants\mybatis\dao" />
+      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\java\restaurants\mybatis\model" />
       <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\resources\TEST" />
-      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\resources" />
-      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\java\restaurants\common" />
-      <recent name="C:\Users\Algirdas Benetis\IdeaProjects\PSK\src\main\java\restaurants" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JBoss 23.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 23.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="adopt-openjdk-14" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -243,7 +256,22 @@
       <workItem from="1618729069662" duration="9646000" />
       <workItem from="1618742414981" duration="5895000" />
       <workItem from="1618839168728" duration="3942000" />
-      <workItem from="1618853181623" duration="289000" />
+      <workItem from="1618853181623" duration="8556000" />
+      <workItem from="1618863645122" duration="5194000" />
+      <workItem from="1618932748908" duration="3687000" />
+      <workItem from="1618936673153" duration="8705000" />
+      <workItem from="1618948325730" duration="3026000" />
+      <workItem from="1618954386801" duration="135000" />
+      <workItem from="1618956127144" duration="4489000" />
+      <workItem from="1618991268855" duration="19403000" />
+      <workItem from="1619130102358" duration="467000" />
+      <workItem from="1619130611013" duration="357000" />
+      <workItem from="1619131016122" duration="102000" />
+      <workItem from="1619699422019" duration="766000" />
+      <workItem from="1619985416729" duration="2737000" />
+      <workItem from="1620130248174" duration="602000" />
+      <workItem from="1620142275485" duration="1153000" />
+      <workItem from="1620920527323" duration="7012000" />
     </task>
     <task id="LOCAL−00001" summary="implementing listing items from backend to UI">
       <created>1616701230742</created>
@@ -269,11 +297,29 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1617804315468</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Update employee name">
+      <created>1618853561362</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1618853561362</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -282,7 +328,8 @@
     <MESSAGE value="Implemented adding employees to selected restaurant functionality" />
     <MESSAGE value="MyBatis implementation" />
     <MESSAGE value="Employee name update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Employee name update" />
+    <MESSAGE value="Update employee name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update employee name" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

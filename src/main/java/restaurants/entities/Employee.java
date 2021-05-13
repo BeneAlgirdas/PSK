@@ -26,6 +26,10 @@ public class Employee implements Serializable {
     @JoinColumn(name="RESTAURANT_ID")
     private Restaurant restaurant;
 
+    @Version
+    @Column(name = "OPT_LOCK_VERSION")
+    private Integer version;
+
     public Employee() {
     }
 

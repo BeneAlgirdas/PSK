@@ -6,6 +6,7 @@
     <typeAliases>
         <typeAlias type="restaurants.mybatis.model.Restaurant" alias="Restaurant"/>
         <typeAlias type="restaurants.mybatis.model.Employee" alias="Employee"/>
+        <typeAlias type="restaurants.mybatis.model.Customer" alias="Customer"/>
     </typeAliases>
     <environments default="development">
         <environment id="development">
@@ -18,5 +19,6 @@
     <mappers>
         <mapper resource="mybatis/RestaurantMapper.xml"/>
         <mapper resource="mybatis/EmployeeMapper.xml"/>
+        <mapper resource="mybatis/CustomerMapper.xml"/>
     </mappers>
 </configuration>

@@ -29,4 +29,12 @@ public class EmployeesDAO {
     public void persist(Employee employee){
         this.em.persist(employee);
     }
+
+    public Employee findOne(Integer id){
+        return em.find(Employee.class, id);
+    }
+
+    public Employee update(Employee employee){
+        return em.merge(employee);
+    }
 }

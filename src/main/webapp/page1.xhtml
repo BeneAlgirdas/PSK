@@ -22,5 +22,22 @@
             <f:param name="restaurantId" value="#{employees.restaurantId}"/>
         </h:commandButton>
     </h:form>
+
+    <h2>Customers:</h2>
+    <ol>
+        <ui:repeat value="#{restaurantCustomers.customers}" var="restaurantCustomer">
+            <li>
+                <h:link value = "#{restaurantCustomer.name}">
+                </h:link>
+            </li>
+        </ui:repeat>
+    </ol>
+    <h:form>
+        <h:inputText value="#{customers.customerToCreate.name}" required="true" />
+        <h:commandButton value="Add new customer" action="#{customers.customerToCreate.name}">
+            <f:param name="restaurantId" value="#{restaurantCustomers.restaurantId}"/>
+        </h:commandButton>
+    </h:form>
+    <h:link outcome="index" value="Back to the restaurants page"/>
 </h:body>
 </html>

@@ -13,7 +13,7 @@
 
         <javaModelGenerator targetPackage="restaurants.mybatis.model" targetProject="MAVEN" />
 
-        <sqlMapGenerator targetPackage="restaurants.usecases.mybatis.xml" targetProject="MAVEN" />
+        <sqlMapGenerator targetPackage="restaurants.common.mybatis.xml" targetProject="MAVEN" />
         <javaClientGenerator type="XMLMAPPER" targetPackage="restaurants.mybatis.dao" targetProject="MAVEN" />
 
 
@@ -21,6 +21,9 @@
             <generatedKey column="id" identity="true" sqlStatement="JDBC" />
         </table>
         <table schema="public" tableName="employee">
+            <generatedKey column="id" identity="true" sqlStatement="JDBC" />
+        </table>
+        <table schema="public" tableName="customer">
             <generatedKey column="id" identity="true" sqlStatement="JDBC" />
         </table>
     </context>
