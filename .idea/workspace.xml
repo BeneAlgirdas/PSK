@@ -9,31 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="Update employee name">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PSK.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/RestaurantCustomers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/UpdateEmployeeEM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/rest/EmployeesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/rest/contracts/EmployeeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/.idea/webapp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/rest/ApiConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PSK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PSK.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/Customers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/Restaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/Restaurants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/entities/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/mybatis/dao/RestaurantMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/mybatis/dao/RestaurantMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/mybatis/model/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/mybatis/model/Restaurant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/persistence/EmployeesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/persistence/EmployeesDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/MyBatisConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/MyBatisConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/RestaurantMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/RestaurantMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/employeeEdit.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/employeeEdit.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/page1.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page1.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +249,7 @@
       <workItem from="1619985416729" duration="2737000" />
       <workItem from="1620130248174" duration="602000" />
       <workItem from="1620142275485" duration="1153000" />
-      <workItem from="1620920527323" duration="7012000" />
+      <workItem from="1620920527323" duration="8899000" />
     </task>
     <task id="LOCAL−00001" summary="implementing listing items from backend to UI">
       <created>1616701230742</created>
@@ -303,7 +281,13 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1618853561362</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="Optimistic Lock, Controller">
+      <created>1620928494222</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1620928494222</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +313,8 @@
     <MESSAGE value="MyBatis implementation" />
     <MESSAGE value="Employee name update" />
     <MESSAGE value="Update employee name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update employee name" />
+    <MESSAGE value="Optimistic Lock, Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimistic Lock, Controller" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
