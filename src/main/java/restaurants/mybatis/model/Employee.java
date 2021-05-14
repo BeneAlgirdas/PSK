@@ -99,4 +99,5 @@ public class Employee {
     public void setRestaurantId(Integer restaurantId) {
         this.restaurantId = restaurantId;
     }
+
 }

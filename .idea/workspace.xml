@@ -9,8 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="Optimistic Lock, Controller&#10;fixed with included missed files">
+    <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="Logging interceptor example using CDI">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/EmployeeCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/decorators/EmployeeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/decorators/ICreateEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/interceptors/LoggedInvocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/interceptors/MethodLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/Employees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/UpdateEmployeeEM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/UpdateEmployeeEM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/mybatis/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/mybatis/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/page1.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/page1.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +36,7 @@
       <list>
         <option value="Jsp File" />
         <option value="XHTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -254,6 +266,7 @@
       <workItem from="1621005933852" duration="481000" />
       <workItem from="1621006443532" duration="278000" />
       <workItem from="1621006748828" duration="406000" />
+      <workItem from="1621007178358" duration="7467000" />
     </task>
     <task id="LOCAL−00001" summary="implementing listing items from backend to UI">
       <created>1616701230742</created>
@@ -297,7 +310,13 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1620931578623</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Optimistic Lock, Controller&#10;fixed with included missed files">
+      <created>1621007321024</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1621007321024</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +344,8 @@
     <MESSAGE value="Update employee name" />
     <MESSAGE value="Optimistic Lock, Controller" />
     <MESSAGE value="Optimistic Lock, Controller&#10;fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimistic Lock, Controller&#10;fixed" />
+    <MESSAGE value="Optimistic Lock, Controller&#10;fixed with included missed files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimistic Lock, Controller&#10;fixed with included missed files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

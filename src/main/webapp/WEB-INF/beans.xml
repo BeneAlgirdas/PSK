@@ -5,4 +5,11 @@
         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                       http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
         bean-discovery-mode="annotated">
+
+    <interceptors>
+        <class>restaurants.interceptors.MethodLogger</class>
+    </interceptors>
+    <decorators>
+        <class>restaurants.decorators.EmployeeDecorator</class>
+    </decorators>
 </beans>

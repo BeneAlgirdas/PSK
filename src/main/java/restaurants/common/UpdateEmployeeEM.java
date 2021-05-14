@@ -1,6 +1,7 @@
 package restaurants.common;
 
 import restaurants.entities.Employee;
+import restaurants.interceptors.LoggedInvocation;
 import restaurants.persistence.EmployeesDAO;
 
 import javax.annotation.PostConstruct;
@@ -30,6 +31,7 @@ public class UpdateEmployeeEM implements Serializable {
         this.employee = employeesDAO.findOne(employeeId);
     }
 
+    @LoggedInvocation
     @Transactional
     public String updateEmployeeName() {
         try{

@@ -2,6 +2,7 @@ package restaurants.common;
 
 import restaurants.entities.Employee;
 import restaurants.entities.Restaurant;
+import restaurants.interceptors.LoggedInvocation;
 import restaurants.persistence.EmployeesDAO;
 import restaurants.persistence.RestaurantsDAO;
 
@@ -24,9 +25,11 @@ public class Employees implements Serializable {
     private RestaurantsDAO restaurantsDAO;
 
     private Integer restaurantId;
+    @Inject
+    EmployeeCreator creator;
+//    private Employee employeeToCreate = new Employee();
 
-    private Employee employeeToCreate = new Employee();
-
+    private restaurants.mybatis.model.Employee emplolyeeToCreate = new restaurants.mybatis.model.Employee();
     /*private List<Employee> allEmployees;*/
     private List<Employee> restaurantEmployees = new ArrayList<>();
     @PostConstruct
@@ -38,11 +41,15 @@ public class Employees implements Serializable {
         loadEmployees(restaurantId);
     }
 
+    @LoggedInvocation
     @Transactional
     public String createEmployee(){
         Restaurant restaurant = restaurantsDAO.findOne(this.restaurantId);
-        employeeToCreate.setRestaurant(restaurant);
-        this.employeesDAO.persist(employeeToCreate);
+        emplolyeeToCreate.setRestaurantId(restaurantId);
+        creator.createEmployee(emplolyeeToCreate);
+//        employeeToCreate.setRestaurant(restaurant);
+//        this.employeesDAO.persist(employeeToCreate);
+//        return "page1?faces-redirect=true&restaurantId=" + restaurant.getId();
         return "page1?faces-redirect=true&restaurantId=" + restaurant.getId();
     }
 
@@ -75,13 +82,30 @@ public class Employees implements Serializable {
         this.restaurantId = restaurantId;
     }
 
-    public Employee getEmployeeToCreate() {
-        return employeeToCreate;
+    public EmployeeCreator getCreator() {
+        return creator;
     }
 
-    public void setEmployeeToCreate(Employee employeeToCreate) {
-        this.employeeToCreate = employeeToCreate;
+    public void setCreator(EmployeeCreator creator) {
+        this.creator = creator;
     }
+
+    public restaurants.mybatis.model.Employee getEmplolyeeToCreate() {
+        return emplolyeeToCreate;
+    }
+
+    public void setEmplolyeeToCreate(restaurants.mybatis.model.Employee emplolyeeToCreate) {
+        this.emplolyeeToCreate = emplolyeeToCreate;
+    }
+
+
+    //    public Employee getEmployeeToCreate() {
+//        return employeeToCreate;
+//    }
+//
+//    public void setEmployeeToCreate(Employee employeeToCreate) {
+//        this.employeeToCreate = employeeToCreate;
+//    }
 
     public List<Employee> getRestaurantEmployees() {
         return restaurantEmployees;
