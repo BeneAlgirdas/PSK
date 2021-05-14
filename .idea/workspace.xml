@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/rest/ApiConfiguration.java" afterDir="false" />
+    <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="Optimistic Lock, Controller&#10;fixed with included missed files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
     <property name="project.structure.proportion" value="0.1875" />
     <property name="project.structure.side.proportion" value="0.34064886" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -97,13 +96,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -249,7 +250,10 @@
       <workItem from="1619985416729" duration="2737000" />
       <workItem from="1620130248174" duration="602000" />
       <workItem from="1620142275485" duration="1153000" />
-      <workItem from="1620920527323" duration="8899000" />
+      <workItem from="1620920527323" duration="9257000" />
+      <workItem from="1621005933852" duration="481000" />
+      <workItem from="1621006443532" duration="278000" />
+      <workItem from="1621006748828" duration="406000" />
     </task>
     <task id="LOCAL−00001" summary="implementing listing items from backend to UI">
       <created>1616701230742</created>
@@ -287,7 +291,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1620928494222</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Optimistic Lock, Controller&#10;fixed">
+      <created>1620931578623</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1620931578623</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +324,8 @@
     <MESSAGE value="Employee name update" />
     <MESSAGE value="Update employee name" />
     <MESSAGE value="Optimistic Lock, Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimistic Lock, Controller" />
+    <MESSAGE value="Optimistic Lock, Controller&#10;fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimistic Lock, Controller&#10;fixed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
