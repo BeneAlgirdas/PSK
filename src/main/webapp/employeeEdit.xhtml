@@ -12,10 +12,19 @@
 </head>
 <body>
 <h2>Update employee name:</h2>
+
+<h:form>
+    <h:outputText value="#{generateEmployeeNumber.employeeGenerationStatus}" />
+    <h:commandButton value="Generate employee number?" disabled="#{generateEmployeeNumber.employeeGenerationRunning}" action="#{generateEmployeeNumber.generateNewEmployeeNumber()}">
+        <f:param name="employeeId" value="#{updateEmployeeEM.employee.id}" />
+    </h:commandButton>
+    <br/><br/>
+</h:form>
+
 <h:form>
   <h:inputText value="#{updateEmployeeEM.employee.name}" required="true" />
   <h:commandButton value="Update" action="#{updateEmployeeEM.updateEmployeeName}">
-    <f:param name="employeeId" value="#{updateEmployeeEM.employee}" />
+    <f:param name="employeeId" value="#{updateEmployeeEM.employee.id}" />
   </h:commandButton>
 </h:form>
 <h:link outcome="index" value="Back to the restaurants page"/>

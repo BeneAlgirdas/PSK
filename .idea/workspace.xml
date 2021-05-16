@@ -10,11 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/persistence/OptimisticLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/GenerateEmployeeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/services/EmployeeNumberGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/Employees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/Employees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/UpdateEmployeeEM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/UpdateEmployeeEM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/entities/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/employeeEdit.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/employeeEdit.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +257,7 @@
       <workItem from="1621006443532" duration="278000" />
       <workItem from="1621006748828" duration="406000" />
       <workItem from="1621007178358" duration="8021000" />
-      <workItem from="1621180253200" duration="11485000" />
+      <workItem from="1621180253200" duration="15285000" />
     </task>
     <task id="LOCAL−00001" summary="implementing listing items from backend to UI">
       <created>1616701230742</created>
@@ -315,7 +313,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1621020645945</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="Raising OptimisticLock exception">
+      <created>1621192859471</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1621192859471</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +349,8 @@
     <MESSAGE value="Optimistic Lock, Controller&#10;fixed" />
     <MESSAGE value="Optimistic Lock, Controller&#10;fixed with included missed files" />
     <MESSAGE value="Inteceptor, Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inteceptor, Decorator" />
+    <MESSAGE value="Raising OptimisticLock exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Raising OptimisticLock exception" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
