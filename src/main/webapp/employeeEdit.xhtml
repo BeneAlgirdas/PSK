@@ -13,9 +13,9 @@
 <body>
 <h2>Update employee name:</h2>
 <h:form>
-  <h:inputText value="#{updateEmployee.employeeToUpdate.name}" required="true" />
-  <h:commandButton value="Update" action="#{updateEmployee.updateEmployeeName()}">
-    <f:param name="employeeId" value="#{updateEmployee.employeeToUpdate.id}" />
+  <h:inputText value="#{updateEmployeeEM.employee.name}" required="true" />
+  <h:commandButton value="Update" action="#{updateEmployeeEM.updateEmployeeName}">
+    <f:param name="employeeId" value="#{updateEmployeeEM.employee}" />
   </h:commandButton>
 </h:form>
 <h:link outcome="index" value="Back to the restaurants page"/>

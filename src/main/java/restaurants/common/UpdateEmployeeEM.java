@@ -3,6 +3,7 @@ package restaurants.common;
 import restaurants.entities.Employee;
 import restaurants.interceptors.LoggedInvocation;
 import restaurants.persistence.EmployeesDAO;
+import restaurants.persistence.OptimisticLock;
 
 import javax.annotation.PostConstruct;
 import javax.faces.context.FacesContext;
@@ -21,6 +22,8 @@ public class UpdateEmployeeEM implements Serializable {
 
     @Inject
     private EmployeesDAO employeesDAO;
+    @Inject
+    private OptimisticLock optimisticLock;
 
     @PostConstruct
     private void init() {
@@ -28,15 +31,16 @@ public class UpdateEmployeeEM implements Serializable {
         Map<String, String> requestParameters =
                 FacesContext.getCurrentInstance().getExternalContext().getRequestParameterMap();
         Integer employeeId = Integer.parseInt(requestParameters.get("employeeId"));
-        this.employee = employeesDAO.findOne(employeeId);
+        this.employee = optimisticLock.find(employeeId);
     }
 
     @LoggedInvocation
     @Transactional
     public String updateEmployeeName() {
         try{
-            employeesDAO.update(this.employee);
+            optimisticLock.merge(this.employee);
         } catch (OptimisticLockException e) {
+            System.out.println("OptimisticLock Exception!");
             return "/employeeEdit.xhtml?faces-redirect=true&employeeId=" + this.employee.getId() + "&error=optimistic-lock-exception";
         }
         return "page1.xhtml?restaurantId=" + this.employee.getRestaurant().getId() + "&faces-redirect=true";

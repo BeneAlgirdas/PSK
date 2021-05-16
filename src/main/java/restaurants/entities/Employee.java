@@ -28,7 +28,7 @@ public class Employee implements Serializable {
 
     @Version
     @Column(name = "OPT_LOCK_VERSION")
-    private Integer version;
+    private Integer version = 0;
 
     public Employee() {
     }
@@ -69,5 +69,13 @@ public class Employee implements Serializable {
 
     public void setRestaurant(Restaurant restaurant) {
         this.restaurant = restaurant;
+    }
+
+    public Integer getVersion() {
+        return version;
+    }
+
+    public void setVersion(Integer version) {
+        this.version = version;
     }
 }

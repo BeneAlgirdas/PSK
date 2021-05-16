@@ -4,6 +4,7 @@ import restaurants.entities.Employee;
 import restaurants.entities.Restaurant;
 import restaurants.interceptors.LoggedInvocation;
 import restaurants.persistence.EmployeesDAO;
+import restaurants.persistence.OptimisticLock;
 import restaurants.persistence.RestaurantsDAO;
 
 import javax.annotation.PostConstruct;
@@ -23,7 +24,8 @@ public class Employees implements Serializable {
     private EmployeesDAO employeesDAO;
     @Inject
     private RestaurantsDAO restaurantsDAO;
-
+    @Inject
+    private OptimisticLock optimisticLock;
     private Integer restaurantId;
     @Inject
     EmployeeCreator creator;
@@ -43,10 +45,17 @@ public class Employees implements Serializable {
 
     @LoggedInvocation
     @Transactional
-    public String createEmployee(){
+    public String createEmployee() {
         Restaurant restaurant = restaurantsDAO.findOne(this.restaurantId);
         emplolyeeToCreate.setRestaurantId(restaurantId);
-        creator.createEmployee(emplolyeeToCreate);
+//        creator.createEmployee(emplolyeeToCreate);
+        System.out.println("create employee!");
+        var employee = new Employee();
+        employee.setVersion(0);
+        employee.setRestaurant(restaurant);
+        employee.setName(emplolyeeToCreate.getName());
+        optimisticLock.create(employee);
+
 //        employeeToCreate.setRestaurant(restaurant);
 //        this.employeesDAO.persist(employeeToCreate);
 //        return "page1?faces-redirect=true&restaurantId=" + restaurant.getId();
