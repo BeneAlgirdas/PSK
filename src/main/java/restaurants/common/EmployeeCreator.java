@@ -9,6 +9,7 @@ import javax.inject.Inject;
 
 @RequestScoped
 public class EmployeeCreator implements ICreateEmployee {
+    @SuppressWarnings("CdiInjectionPointsInspection")
     @Inject
     EmployeeMapper employeeMapper;
     @Override

@@ -14,7 +14,7 @@ public abstract class EmployeeDecorator implements ICreateEmployee {
     ICreateEmployee employeeCreator;
     public int createEmployee(Employee employee) {
         if (employee.getName().equals("Programuotojas")) {
-            System.out.println(":( geekas");
+            System.out.println("geekas :(");
         }
         return employeeCreator.createEmployee(employee);
     }
