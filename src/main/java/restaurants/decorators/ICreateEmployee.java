@@ -1,7 +1,6 @@
 package restaurants.decorators;
 
-import restaurants.mybatis.model.Employee;
-
+import restaurants.entities.Employee;
 public interface ICreateEmployee {
     int createEmployee(Employee employee);
 }

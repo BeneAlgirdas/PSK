@@ -48,13 +48,14 @@ public class Employees implements Serializable {
     public String createEmployee() {
         Restaurant restaurant = restaurantsDAO.findOne(this.restaurantId);
         emplolyeeToCreate.setRestaurantId(restaurantId);
-//        creator.createEmployee(emplolyeeToCreate);
-        System.out.println("create employee!");
+//        System.out.println("create employee!");
         var employee = new Employee();
         employee.setVersion(0);
         employee.setRestaurant(restaurant);
         employee.setName(emplolyeeToCreate.getName());
-        optimisticLock.create(employee);
+        creator.createEmployee(employee);
+
+//        optimisticLock.create(employee);
 
 //        employeeToCreate.setRestaurant(restaurant);
 //        this.employeesDAO.persist(employeeToCreate);

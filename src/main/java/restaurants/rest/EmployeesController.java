@@ -64,7 +64,7 @@ public class EmployeesController {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Transactional
-    public Response create(@PathParam("id") final Integer restaurantId,String name) {
+    public Response create(@PathParam("id") final Integer restaurantId, final String name) {
         try {
             Employee existingEmployee = new Employee();
             Restaurant existingRestaurant = restaurantsDAO.findOne(restaurantId);
