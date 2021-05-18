@@ -12,4 +12,7 @@
     <decorators>
         <class>restaurants.decorators.EmployeeDecorator</class>
     </decorators>
+    <alternatives>
+        <class>restaurants.common.BigMoney</class>
+    </alternatives>
 </beans>
