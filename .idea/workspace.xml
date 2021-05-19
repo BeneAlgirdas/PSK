@@ -10,15 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63c355c7-4060-4d75-9ea1-f1f0a6d17813" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/Alternatives.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/BigMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/IWagePolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/SmallMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/Wages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/wage.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restaurants/services/UpdatedEmployeeNumberGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/Alternatives.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restaurants/common/EmployeeCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restaurants/common/EmployeeCreator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,13 +100,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,7 +261,8 @@
       <workItem from="1621007178358" duration="8021000" />
       <workItem from="1621180253200" duration="16790000" />
       <workItem from="1621273177818" duration="9778000" />
-      <workItem from="1621349596645" duration="7870000" />
+      <workItem from="1621349596645" duration="14436000" />
+      <workItem from="1621405114764" duration="4293000" />
     </task>
     <task id="LOCAL−00001" summary="implementing listing items from backend to UI">
       <created>1616701230742</created>
@@ -344,7 +342,13 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1621358484439</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="@Alternative">
+      <created>1621363639968</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1621363639968</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +382,8 @@
     <MESSAGE value="Asinchroninis komunikavimas" />
     <MESSAGE value="RESTful" />
     <MESSAGE value="Decorator working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator working" />
+    <MESSAGE value="@Alternative" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Alternative" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

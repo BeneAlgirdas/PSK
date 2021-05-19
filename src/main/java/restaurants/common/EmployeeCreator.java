@@ -6,7 +6,6 @@ import restaurants.mybatis.dao.EmployeeMapper;
 import restaurants.persistence.OptimisticLock;
 
 import javax.enterprise.context.RequestScoped;
-import javax.enterprise.inject.Model;
 import javax.inject.Inject;
 
 @RequestScoped
